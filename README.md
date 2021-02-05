@@ -53,7 +53,7 @@ Below are the inputs to the above function
  3) error stores % information captured by the decomposition, ideally it
  should be decreasing with the iterations.
 
-MATLAB for simulating data and running the code is also given which would give user an idea of the input parameters and how the output looks. Please refer to "Hierarchical extraction of functional connectivity components in human brain using resting-state fMRI" paper for more details. 
+MATLAB for simulating data and running the code is also given which would give user an idea of the input parameters and how the output looks. Please refer to "Hierarchical extraction of functional connectivity components in human brain using resting-state fMRI" paper for more details. I am thankful to Anastasia for providing me with the code for projection operators.
 
 # Reference
 
