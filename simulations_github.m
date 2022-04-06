@@ -44,10 +44,12 @@ new_W1 = temp_L*W1;
 % notice that it is a cell of length N
 corre = cell(N,1);
 
-for i =1:N
+or i =1:N
 
-   temp = new_W1*W2*diag(lambda2{i}) *transpose(new_W1*W2);
-   corre{i}=nearcorr(temp,6000000*eps,0,1000);
+    temp = new_W1*W2*diag(lambda2{i}) *transpose(new_W1*W2);
+    temp = diag(1./sqrt(diag(temp)))*temp*diag(1./sqrt(diag(temp)));
+    temp = (temp + temp')/2;
+    corre{i}=temp;
 
 end
 
