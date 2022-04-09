@@ -46,7 +46,7 @@ Below are the inputs to the above function
  7) tol1 = 10^(-4)
 
  There are three outputs-
- 1) W stores components at different levels in cells, each cell of W will
+ 1) W stores group level components at different levels in cells, each cell of W will
  store components at each level
  2) lambda stores subject specific information in cell format, each cell of
  lambda will store subject and level specific information
@@ -60,5 +60,3 @@ A test code using simulated data is given, which would give the user an idea of 
 [1] D. Sahoo, T. D. Satterthwaite and C. Davatzikos, "Hierarchical extraction of functional connectivity components in human brain using resting-state fMRI," in IEEE Transactions on Medical Imaging, doi: 10.1109/TMI.2020.3042873.
 
 [2] Podosinnikova, Anastasia. Robust Principal Component Analysis as a Nonlinear Eigenproblem. Diss. Universität des Saarlandes Saarbrücken, 2013.
-
-[3] Reddi, Sashank J., Satyen Kale, and Sanjiv Kumar. "On the convergence of adam and beyond." arXiv preprint arXiv:1904.09237 (2019).
