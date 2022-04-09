@@ -2,7 +2,7 @@
 
 # Overview
 
-MATLAB code for estimating Hierarchical Sparse Connectivity Patterns (hSCP) using fMRI data.
+MATLAB code for estimating Hierarchical Sparse Connectivity Patterns (hSCP) from fMRI data by solving non-convex matrix decomposition problem using amsgrad gradient descent. 
 
 contact: sahoodushyant@gmail.com
 
@@ -29,7 +29,7 @@ Below are the inputs to the above function
 
  4) loop is the number of iterations of gradient descent
 
- 5) eta, beta1, beta2, eps are the hyperparameters for amsgrad
+ 5) eta, beta1, beta2, eps are the hyperparameters for amsgrad (https://ruder.io/optimizing-gradient-descent/)
 
  6) tole is the % change in the error before gradient descent stops
 
@@ -53,7 +53,7 @@ Below are the inputs to the above function
  3) error stores % information captured by the decomposition; ideally it
  should be decreasing with the iterations.
 
-A test code using simulated data is given, which would give the user an idea of the input parameters and how the output looks. Please refer to the "Hierarchical extraction of functional connectivity components in the human brain using resting-state fMRI" paper for more details. I am thankful to Anastasia for providing me with the code for projection operators.
+A test code using simulated data is given, which would give the user an idea of the input parameters and how the output looks. Please refer to the "Hierarchical extraction of functional connectivity components in the human brain using resting-state fMRI"[1] paper for more details. I am thankful to Anastasia for providing me with the code for projection operators.
 
 # Reference
 
